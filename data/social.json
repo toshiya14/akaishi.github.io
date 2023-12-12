@@ -1,0 +1,14 @@
+{
+  "main": [
+    {
+      "name": "github",
+      "icon": "fab fa-github",
+      "link": "https://github.com/toshiya14"
+    },
+    {
+      "name": "bilibili",
+      "icon": "fab fa-bilibili",
+      "link": "https://space.bilibili.com/8759339/"
+    }
+  ]
+}
