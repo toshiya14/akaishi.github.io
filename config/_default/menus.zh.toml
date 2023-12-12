@@ -1,0 +1,29 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "主页"
+url = "/"
+weight = 1
+
+[[main]]
+name = "关于"
+url = "about/"
+weight = 2
+
+[[main]]
+weight = 4
+name = "分类"
+url = "categories/"
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 3
