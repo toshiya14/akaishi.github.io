@@ -15,7 +15,7 @@ timeZone = "Asia/Shanghai"
 paginate = 4 # see https://gohugo.io/extras/pagination/
 
 # post excerpt
-summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
+summaryLength = 40 # see https://gohugo.io/content-management/excerpts/
 
 # google analytics
 googleAnalytics = "G-MEASUREMENT_ID" # see https://gohugo.io/templates/internal/
@@ -173,3 +173,7 @@ lazy = true
 [[params.plugins.js]]
 link = "plugins/youtube-lite.js"
 lazy = true
+
+
+[frontmatter]
+lastmod = ["lastmd", ":fileModTime", ":git", "date"]

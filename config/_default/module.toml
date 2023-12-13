@@ -47,8 +47,8 @@ path = "github.com/gethugothemes/hugo-modules/gallery-slider"
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/components/preloader"
 
-[[imports]]
-path = "github.com/gethugothemes/hugo-modules/components/social-share"
+# [[imports]]
+# path = "github.com/gethugothemes/hugo-modules/components/social-share"
 
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/components/cookie-consent"
@@ -80,8 +80,8 @@ path = "github.com/gethugothemes/hugo-modules/seo-tools/site-verifications"
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager"
 
-# [[imports]]
-# path = "github.com/gethugothemes/hugo-modules/seo-tools/baidu-analytics"
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/seo-tools/baidu-analytics"
 
 # [[imports]]
 # path = "github.com/gethugothemes/hugo-modules/seo-tools/matomo-analytics"

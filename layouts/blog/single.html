@@ -41,8 +41,8 @@
           <div class="content mb-10">
             {{ .Content }}
           </div>
-          <div class="row items-start justify-between">
-            <div class="lg:col-5 mb-10 flex items-center lg:mb-0">
+          <div class="row">
+            <div class="mb-10 flex items-center">
               <h5 class="mr-3">{{ i18n "tags" }} :</h5>
               <ul>
                 {{ $tags:= .Params.tags }}
@@ -57,8 +57,9 @@
                 {{ end }}
               </ul>
             </div>
-            <div class="lg:col-4 flex items-center">
-              {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" (i18n "share") "Whatsapp" false "Telegram" false) }}
+            <div class="row">
+            <div class="mb-10 flex items-center">
+              {{ partial "partials/components/social-share.html" }}
             </div>
           </div>
           <!-- comments -->
