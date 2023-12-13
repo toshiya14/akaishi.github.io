@@ -5,7 +5,7 @@ description: "本文讲述了如何使用自签名证书在 ASP.NET Web 项目�
 categories: ["dotnet", "ASP.NET"]
 author: "Akaishi Toshiya"
 date: 2023-12-13T03:09:06+08:00
-tags: ["ASP.NET", "SSL", "客户端证书"]
+tags: [".NET", "ASP.NET", "SSL", "客户端证书"]
 draft: false
 ---
 
