@@ -82,6 +82,19 @@ extendedKeyUsage = clientAuth, emailProtection
 
 需要注意的是，上面的 `nsComment` 请修改为证书标识名称，其他可不变。
 
+如果我们不需要客户端证书，而是需要一个用于 `ssl` 的证书，那么可以使用下面的 `cnf`：
+
+```ini
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+subjectAltName=@alt_names
+
+[alt_names]
+DNS.1=your.domain.name
+```
+
+唯一比较重要的是 `DNS.1` 必须与你的服务器域名一致。
+
 然后运行：
 
 ```bash
