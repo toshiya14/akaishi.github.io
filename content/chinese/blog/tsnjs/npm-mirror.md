@@ -23,7 +23,7 @@ yarn global add verdaccio
 
 ## 创建配置
 
-如果不指定参数启动 verdaccio，将会使用 `~/.config/verdaccio/config.yaml`，你可以将下面的内容放到这个文件内。
+如果不指定参数启动 verdaccio，将会使用 `~/AppData/Roaming/verdaccio/config.yaml`，你可以将下面的内容放到这个文件内。
 也可以随意放在自己想要的位置，启动时，加上 `-c <config_path>` 来指定使用哪个配置文件。
 
 ```yaml
@@ -67,7 +67,7 @@ verdaccio -l 4000 -c config.yaml
 ```
 
 注意这里的 `-l` 参数，表示 verdaccio 会监听哪个端口的请求，如果没有指定的话，默认使用 `4873`；
-`-c` 参数指定了 verdaccio 会使用哪个配置文件，默认是 `~/.config/verdaccio/config.yaml`。
+`-c` 参数指定了 verdaccio 会使用哪个配置文件，默认是 `~/AppData/Roaming/verdaccio/config.yaml`。
 
 ### 更改 registry
 

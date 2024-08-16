@@ -80,6 +80,21 @@ bun add react-icons
 
 #### json-edit-react
 
+```bash
+bun add json-edit-react
+```
+
+```tsx
+<JsonEditor
+  data={form}
+  setData={(x) => {
+    if (typeof x === 'object') {
+      setForm({ ...form, ...x })
+    }
+  }}
+/>
+```
+
 ## 引入路由 react-router
 
 ## 引入 sass 样式编译器
