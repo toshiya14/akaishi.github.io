@@ -3,7 +3,7 @@ title: "VSCode + WSL 开发"
 meta_title: ""
 description: "本文讲述了如何使用 VSCode 的远程连接到本地的 WSL 上进行开发"
 date: 2023-12-13T02:24:30+08:00
-categories: ["杂七杂八"]
+categories: ["vscode"]
 author: "Akaishi Toshiya"
 tags: ["vscode", "wsl"]
 draft: false
