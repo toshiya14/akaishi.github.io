@@ -1,7 +1,7 @@
 ---
 title: "VSCode 插件开发随机：插件如何处理浏览器回调"
 meta_title: ""
-date: 2023-12-13T02:24:30+08:00
+date: 2024-09-09T16:22:00+08:00
 categories: ["vscode", "extensions"]
 author: "Akaishi Toshiya"
 tags: ["vscode", "vscode插件"]
